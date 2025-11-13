@@ -12,18 +12,30 @@ Database name: netflix_db
 
 Table name: netflix
 
-Column Name	Data Type	                   Description
+Column Name	    Data Type	                   Description
+
 show_id	       VARCHAR(6)	               Unique identifier for each show
+
 type	         VARCHAR(10)	             Type of content (Movie or TV Show)
+
 title	         VARCHAR(250)	             Title of the show
+
 director	     VARCHAR(250)	             Director of the show
+
 cast	         TEXT	                     Main cast members
+
 country	       VARCHAR(150)	             Country of production
+
 date_added	   VARCHAR(50)	             Date the show was added to Netflix
+
 release_year	 SMALLINT	                 Year of release
+
 rating	       VARCHAR(10)	             Content rating (e.g., PG, TV-MA)
+
 duration	     VARCHAR(150)	             Duration (in minutes or seasons)
+
 listed_in	     VARCHAR(250)	             Genre/category
+
 description	   VARCHAR(250)	             Short description of the show
 
 SQL Questions & Queries
